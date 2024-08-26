@@ -1,10 +1,7 @@
-import { Button } from "keep-react";
 
+
+import HomePage from "@/pages/main/Home/Home";
 
 export default function Home() {
-  return (
-    <div>
-      <Button>Keep React</Button>
-    </div>
-  );
+  return <HomePage />;
 }
