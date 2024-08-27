@@ -72,7 +72,7 @@ function CustomSelect({ options, label, placeholder, value, onChange }: any) {
   }, [value, options]);
 
   return (
-    <div className="relative w-80">
+    <div className="relative w-auto">
       <div
         onClick={toggleDropdown}
         className="flex items-center justify-between w-full h-10 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm cursor-pointer focus:outline-none focus:ring-1 focus:ring-blue-500"
