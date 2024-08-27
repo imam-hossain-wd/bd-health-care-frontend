@@ -11,8 +11,8 @@ import AmbulanceForm from "./Ambulance";
 
 const HomeTab = () => {
   return (
-    <Card className="flex justify-center items-center mx-auto max-w-xl">
-      <Tabs variant="fill" defaultActive="1" className="">
+    // <div className="flex justify-center items-center bg-white shadow-md ">
+      <Tabs className=' bg-white shadow-md border p-5 rounded-lg' variant="fill" defaultActive="1" >
         <TabList>
           <TabItem value="1">
             <User size={16} />
@@ -31,7 +31,7 @@ const HomeTab = () => {
             Ambulance
           </TabItem>
         </TabList>
-        <TabContent value="1">
+        <TabContent className="" value="1">
           <AmbulanceForm />
         </TabContent>
         <TabContent value="2">
@@ -44,7 +44,7 @@ const HomeTab = () => {
           <AmbulanceForm />
         </TabContent>
       </Tabs>
-    </Card>
+    // </div>
   );
 };
 

@@ -1,6 +1,7 @@
 
-
+'use client'
 import { homebanner } from "@/utils/assets";
+import autoPlay from 'embla-carousel-autoplay';
 import {
   Carousel,
   CarouselButtons,
@@ -29,7 +30,7 @@ const Homebanner = () => {
 
   return (
     <div>
-      <Carousel>
+      <Carousel options={{ loop: true }} plugins={[autoPlay()]}>
         <CarouselSlides>
           {banners?.map((slide, index) => (
             <CarouselItem key={index}>

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
+import Button from "@/components/ui/Button/Button";
 import {
   Avatar,
   AvatarImage,
@@ -53,7 +54,8 @@ export const Navbar = () => {
           {navmenus}
           </NavbarCollapse>
           <div className="ml-36">
-            <NavbarItem active>Login</NavbarItem>
+            {/* <NavbarItem active>Login</NavbarItem> */}
+            <Button text="Login" className="bg-primary px-8"/>
           </div>
           <DropdownComponent />
         </NavbarContainer>

@@ -73,27 +73,27 @@ const AmbulanceForm = () => {
         submitHandler={handleSubmit}
         defaultValues={{ name: "", email: "", fruit: "" }}
       >
-        <div className="flex justify-center">
-          <div className="grid grid-cols-2 gap-5 mt-5">
-            <div>
+        <div className="flex ">
+          <div className="grid grid-cols-2 gap-5 mt-5 w-full">
+            <div className="w-full">
               <FormSelect
-                name="fruit"
+                name="division"
                 // label="Select a Fruit"
                 options={division}
                 validation={{ required: "Please select a division" }}
               />
             </div>
-            <div>
+            <div className="w-full">
               <FormSelect
-                name="fruit"
+                name="district"
                 // label="Select a Fruit"
                 options={district}
                 validation={{ required: "Please select a district" }}
               />
             </div>
-            <div>
+            <div className="w-full">
               <FormSelect
-                name="fruit"
+                name="thana"
                 // label="Select a Fruit"
                 options={thana}
                 validation={{ required: "Please select a thana" }}
