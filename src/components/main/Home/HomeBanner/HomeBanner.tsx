@@ -18,13 +18,13 @@ import Image from "next/image";
 const Homebanner = () => {
   const banners = [
     {
-      image: homebanner.banner1,
+      image: 'https://img.freepik.com/premium-photo/doctor-with-visor-against-coronavirus-inviting-patient-examination-room-from-waiting-area-talking-with-disabled-senior-woman-wheelchair-pushed-by-nurse-with-face-mask_482257-5984.jpg?w=826',
     },
     {
-      image: homebanner.banner2,
+      image: 'https://img.freepik.com/premium-photo/doctor-talking-sick-patient-medical-consultation-appointment-office-general-practitioner-having-discussion-with-woman-about-diagnosis-treatment-annual-checkup-visit_482257-33268.jpg?w=740',
     },
     {
-      image: homebanner.banner3,
+      image: 'https://img.freepik.com/premium-photo/medical-team-performing-surgery-operating-room_752325-81222.jpg?w=826',
     },
   ];
 

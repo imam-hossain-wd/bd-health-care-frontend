@@ -1,3 +1,4 @@
+import Benefits from "@/components/main/Home/Benefits/Benefits";
 import Doctor from "@/components/main/Home/Doctor/Doctor";
 import Homebanner from "@/components/main/Home/HomeBanner/HomeBanner";
 import HomeTab from "@/components/main/Home/HomeTab/HomeTab";
@@ -15,6 +16,8 @@ const HomePage = () => {
           <HomeTab />
         </div>
       </div>
+
+      <Benefits />
 
       <Specilizations />
 
