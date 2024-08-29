@@ -38,7 +38,6 @@ const Benefits = () => {
     },
   ];
 
-
   return <div>
     <div className="grid grid-cols-6 gap-5 w-[90%] mx-auto mt-10">
         {

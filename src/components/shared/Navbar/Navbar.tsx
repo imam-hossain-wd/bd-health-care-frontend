@@ -17,6 +17,7 @@ import {
   DropdownItem,
   DropdownList,
 } from "keep-react";
+import Link from "next/link";
 
 import {
   SignOut,
@@ -27,7 +28,7 @@ import {
 export const Navbar = () => {
   const navmenus = (
     <>
-      <NavbarItem>Home</NavbarItem>
+      <NavbarItem><Link href='/'>Home</Link></NavbarItem>
       <NavbarItem>Doctor</NavbarItem>
       <NavbarItem>Hospital</NavbarItem>
       <NavbarItem>Blood Bank</NavbarItem>
@@ -55,7 +56,7 @@ export const Navbar = () => {
           </NavbarCollapse>
           <div className="ml-36">
             {/* <NavbarItem active>Login</NavbarItem> */}
-            <Button text="Login" className="bg-primary px-8"/>
+            <Link href='/login'><Button text="Login" className="bg-primary px-8"/></Link>
           </div>
           <DropdownComponent />
         </NavbarContainer>
