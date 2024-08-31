@@ -28,13 +28,13 @@ import {
 export const Navbar = () => {
   const navmenus = (
     <>
-      <NavbarItem><Link href='/'>Home</Link></NavbarItem>
-      <NavbarItem>Doctor</NavbarItem>
-      <NavbarItem>Hospital</NavbarItem>
-      <NavbarItem>Blood Bank</NavbarItem>
-      <NavbarItem>Ambulance</NavbarItem>
-      <NavbarItem>Hiring Nurse</NavbarItem>
-      <NavbarItem>Hiring Doctor</NavbarItem>
+      <NavbarItem ><Link href='/'>Home</Link></NavbarItem>
+      <NavbarItem ><Link href='/doctor'>Doctor</Link></NavbarItem>
+      <NavbarItem ><Link href='/hospital'>Hospital</Link></NavbarItem>
+      <NavbarItem ><Link href='/blood-bank'>Blood Bank</Link></NavbarItem>
+      <NavbarItem ><Link href='/ambulance'>Ambulance</Link></NavbarItem>
+      <NavbarItem ><Link href='/hiring-nurse'>Hiring Nurse</Link></NavbarItem>
+      <NavbarItem ><Link href='/hiring-doctor'>Hiring Doctor</Link></NavbarItem>
     </>
   );
 
@@ -42,11 +42,12 @@ export const Navbar = () => {
     <div>
       <KeepNav>
         <NavbarContainer>
-          <NavbarCollapseBtn />
-          <NavbarBrand>
-            <h1 className="text-2xl font-bold ml-10">Health Care</h1>
+          <NavbarCollapseBtn  className="ml-7"/>
+          <div className="w-full mx-auto flex justify-around items-center ml-32">
+            <NavbarBrand>
+            <h1 className="text-2xl font-bold ">Health Care</h1>
           </NavbarBrand>
-          <NavbarList>
+          <NavbarList className="">
 
           {navmenus}
           </NavbarList>
@@ -54,11 +55,16 @@ export const Navbar = () => {
           <NavbarCollapse>
           {navmenus}
           </NavbarCollapse>
-          <div className="ml-36">
-            {/* <NavbarItem active>Login</NavbarItem> */}
+          
+          <div className="">
             <Link href='/login'><Button text="Login" className="bg-primary px-8"/></Link>
           </div>
+
+          <div className="">
           <DropdownComponent />
+          </div>
+          </div>
+          
         </NavbarContainer>
       </KeepNav>
     </div>

@@ -1,7 +1,11 @@
 import Benefits from "@/components/main/Home/Benefits/Benefits";
+import ClinicSection from "@/components/main/Home/ClinicSection/ClinicSection";
 import Doctor from "@/components/main/Home/Doctor/Doctor";
+import DoctorConsultation from "@/components/main/Home/DoctorConsultation/DoctorConsultation";
+import BloodDonors from "@/components/main/Home/Donor/BloodDonor";
 import Homebanner from "@/components/main/Home/HomeBanner/HomeBanner";
 import HomeTab from "@/components/main/Home/HomeTab/HomeTab";
+import Hospital from "@/components/main/Home/Hospital/Hospital";
 import Specilizations from "@/components/main/Home/Speacilazation/Speacialization";
 
 const HomePage = () => {
@@ -21,7 +25,16 @@ const HomePage = () => {
 
       <Specilizations />
 
+      <ClinicSection />
+
+
+      <DoctorConsultation />
+
       <Doctor />
+
+      <Hospital />
+
+      <BloodDonors />
     </div>
   );
 };

@@ -36,11 +36,11 @@ const Specilizations = () => {
   return <div >
 
     <h2 className="text-2xl font-semibold text-center mt-16">Explore Treatment Across Specilities</h2> 
-    <div className="grid grid-cols-6 gap-5 mt-10 w-[85%] mx-auto">
+    <div className="grid grid-cols-6 gap-5 mt-10 w-[85%] mx-auto ">
 
     {
       specilizations?.map((specilization:any, index:number)=> (
-        <div className="bg-[#EFF6FF] flex flex-col justify-center items-center rounded p-5" key={index}>
+        <div className="bg-[#EFF6FF] flex flex-col justify-center items-center rounded p-5 border shadow-sm" key={index}>
           <Image  src={specilization.icon} width={50} height={50} alt="specilization image"/>
           <p>{specilization.name}</p>
 

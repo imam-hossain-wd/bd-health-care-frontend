@@ -9,12 +9,14 @@ import icon3 from "../assets/icon/icon3.png";
 import icon4 from "../assets/icon/icon4.png";
 import icon5 from "../assets/icon/icon5.png";
 import icon6 from "../assets/icon/icon6.png";
-import condult from "../assets/icon/benefits/video consult.webp";
-import ambulance from "../assets/icon/benefits/ambulance.webp";
-import blood from "../assets/icon/benefits/blood.webp";
-import chamber from "../assets/icon/benefits/chamber appointment.webp";
-import homedoctor from "../assets/icon/benefits/home doctor.webp";
-import theraphy from "../assets/icon/benefits/theraphy.webp";
+import condult from "../assets/icon/benefits/live.png";
+import blood from "../assets/icon/benefits/blood.png";
+import chamber from "../assets/icon/benefits/calendar.png";
+import homedoctor from "../assets/icon/benefits/home.png";
+import theraphy from "../assets/icon/benefits/theraphy.png";
+import homeNurse from "../assets/icon/benefits/home-nurse.png";
+import ambulance from "../assets/icon/benefits/ambulance.png";
+
 
 export const logo = {
   carelogo,
@@ -43,4 +45,5 @@ export const benefits = {
   chamber,
   homedoctor,
   theraphy,
+  homeNurse,
 };
