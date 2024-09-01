@@ -16,7 +16,21 @@ import homedoctor from "../assets/icon/benefits/home.png";
 import theraphy from "../assets/icon/benefits/theraphy.png";
 import homeNurse from "../assets/icon/benefits/home-nurse.png";
 import ambulance from "../assets/icon/benefits/ambulance.png";
+import dermatology from "../assets/icon/specialization/Dermatology.png";
+import gastroenterology from "../assets/icon/specialization/Gastroenterology.png";
+import general_Surgery from "../assets/icon/specialization/General_Surgery.png";
+import ophthalmology from "../assets/icon/specialization/Ophthalmology.png";
+import pediatrics from "../assets/icon/specialization/Pediatrics.png";
+import pulmonology from "../assets/icon/specialization/Pulmonology.png";
+import bone from "../assets/icon/specialization/bone.png";
+import heart from "../assets/icon/specialization/heart.png";
+import kidneys from "../assets/icon/specialization/kidneys.png";
+import lungs from "../assets/icon/specialization/lungs.png";
+import neuroscience from "../assets/icon/specialization/neuroscience.png";
+import orthopedics from "../assets/icon/specialization/orthopedics.png";
+import pregnant from "../assets/icon/specialization/pregnant.png";
 
+// dermatology, gastroenterology, general_Surgery,ophthalmology,pediatrics,pulmonology,bone,heart,kidneys,lungs,neuroscience ,orthopedics,pregnant
 
 export const logo = {
   carelogo,
@@ -36,6 +50,22 @@ export const icon = {
   icon4,
   icon5,
   icon6,
+};
+
+export const specilization = {
+  dermatology,
+  gastroenterology,
+  general_Surgery,
+  ophthalmology,
+  pediatrics,
+  pulmonology,
+  bone,
+  heart,
+  kidneys,
+  lungs,
+  neuroscience,
+  orthopedics,
+  pregnant,
 };
 
 export const benefits = {

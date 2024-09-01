@@ -208,6 +208,7 @@ const Benefits = () => {
       <div className="mt-10 w-[90%] mx-auto">
         <Carousel
           options={{
+            //@ts-ignore
             slidesToShow: 5,
             loop: true,
             slidesToScroll: 1,

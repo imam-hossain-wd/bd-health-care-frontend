@@ -9,7 +9,7 @@ const ClinicSection = () => {
       {/* <h2 className="text-3xl font-bold text-center mb-8">Get Care</h2> */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Appointment Section */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="bg-white rounded-lg shadow-lg p-6 border">
           <div className="flex justify-center mb-4">
             <FirstAid size={60} color="#3b82f6" />
             {/* <HandHeart size={32} color="#3b82f6" /> */}
@@ -27,7 +27,7 @@ const ClinicSection = () => {
         </div>
 
         {/* Health and Wellness Section */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="bg-white rounded-lg shadow-lg p-6 border">
           <div className="flex justify-center mb-4">
             <Heart size={60} color="#3b82f6" />
           </div>
@@ -43,7 +43,7 @@ const ClinicSection = () => {
         </div>
 
         {/* Help Section */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="bg-white rounded-lg shadow-lg p-6 border">
           <div className="flex justify-center mb-4">
             <Question size={60} color="#3b82f6" />
           </div>
